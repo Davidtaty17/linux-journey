@@ -1,4 +1,4 @@
-LEVEL 1 : Password is stored
+LEVEL 0-1 : Password is stored
 
 
 Location: file "readme"
