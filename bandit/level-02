@@ -10,3 +10,8 @@ How to solve this level ?
 => Use **ls** for listing the directory contents
 => Once the file is identified. We will use **"cat"** + **"./"** + **"-"** for print the key on the screen 
 => Log out with **ctrl + D** or **exit**
+
+
+**Why did we use " cat ./- instead of cat - " ?**
+Because adding " ./ " before a **filename** tells the terminal to treat it as a path to a file, not as a special symbol.
+**A filename** is simply the name of a file.
