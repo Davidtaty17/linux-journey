@@ -3,6 +3,7 @@ LEVEL 1->2 : Find the key for the next level
 Location: Home directory
 Stored: In a file called " ** - ** "
 Commands for this level: ls, cd, cat, file, find
+Mission: find the key for next level.
 
 
 How to solve this level ?
