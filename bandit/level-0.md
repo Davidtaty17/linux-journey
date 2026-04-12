@@ -1,14 +1,18 @@
-LEVEL 0 : Log into the game using ssh.
-
-Host: bandit.labs.overthewire.org
-port: 2220
-user: bandit0
-commands given: ssh 
+LEVEL 0->1 : Password is stored
 
 
-command for this mission: ssh -p port_number user@IP 
-Like we do not have the IP. The game given us just the hostname and that ssh accepts both, "IP addres" and the "Hostname".
-The computer will handle the translation automatically via DNS.
-So our command will be: ssh -p 2220 bandit0@bandit.labs.overthewire.org
+Location: file "readme"
+File's location: Home directory 
+Mission: **Use the password to log into bandit1 using ssh.**
+
+command for this mission: ls, cd, cat, file, du, find.
+
+
+How to solve this level ?
+
+=> log into the game as in the previous level: **ssh -p 2220 bandit0@bandit.labs.overthewire.org**
+=> use the command **ls** that is the list directory contents: **ls**
+=> use the command **cat** for printing the file once found: **cat readme**
+=> Create a file on the local machine for your next logs
 
 
