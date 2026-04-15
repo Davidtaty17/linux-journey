@@ -9,7 +9,9 @@
 
 
 => Log into the game using ssh with **bandit7** as username and the password found in the previous level;  
+
 => Use **ls** for listing directory contents and find the file;
+
 => Once the directory located, we will use **grep millionth data.txt** to search every line in data.txt and show us only the lines that contain the word millionth;
 
 => Log out with **CTRL + D** or **exit**.
