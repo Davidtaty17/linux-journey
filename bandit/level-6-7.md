@@ -1,6 +1,9 @@
 # LEVEL 6->7 : Find the key for the next level
 
-**Location**:Stored in a file **data.txt**  next to the word millionth
+**Location**: stored somewhere on **the server** and has all of the following properties:
+owned by user bandit7
+owned by group bandit6
+33 bytes in size
 **Commands for this level**: man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 
