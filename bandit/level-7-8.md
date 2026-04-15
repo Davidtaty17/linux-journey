@@ -1,10 +1,13 @@
 # LEVEL 7->8 : Find the key for the next level
 
 **Location**:Stored in a file **data.txt**  next to the word millionth
+
 **Commands for this level**: man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 
 ## How to solve this level ?
+
+
 => Log into the game using ssh with **bandit7** as username and the password found in the previous level;  
 => Use **ls** for listing directory contents and find the file;
 => Once the directory located, we will use **grep millionth data.txt** to search every line in data.txt and show us only the lines that contain the word millionth;
