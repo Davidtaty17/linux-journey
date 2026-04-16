@@ -18,5 +18,6 @@
 
 ## Observations 
 - First, I have used the command **man grep** to understand how it works. At first, I was quite lost, did more research and used Claude to explain to me, really how to use **grep**
+the **man command** is the manual page, it is a system reference manual for every commands
 - Second, **grep** principally searches through  file line by line and displays only the lines containing the word you are looking for ( e.g. **grep [search word] [file's name]**
-- the **man command** is the manual page, it is a system reference manual for every commands
+grep is also a fundamental *security tool*. It lets you search through *log files* when something happens on a Linux system. For example, a login, an error, a service starting. All those records *are written in log files*
