@@ -23,7 +23,7 @@ How to solve this level ?
 Observations
 
 - In this level, you should make sure that you are written correctly the directory name and the de hidden file as you will see on the terminal.
-- 
+  
 - Also, I have used < ls -a > for showing all files, including the hidden one. I have not used that just like that, I have used one of search-engine I learned. The command was < man ls >.
   
 - And the last one, if you pay attention, you will see that I used : < cat ./...Hiding-From-You > instead of < cat "./...Hiding-From-You" >.
