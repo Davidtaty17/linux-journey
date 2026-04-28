@@ -1,18 +1,18 @@
-LEVEL 1->2 : Find the key for the next level
+# LEVEL 1->2 : Find the key for the next level
 
-Location: Home directory
-Stored: In a file called " ** - ** "
-Commands for this level: ls, cd, cat, file, find
-Mission: find the key for next level.
+**Location**: Stored in a file named **-** on *home directory*
+**Useful commands**: ls, cd, cat, file, find
 
+## How to solve this level?
+=> Log into game using ssh with **bandit1** as user
 
-How to solve this level ?
-=> Log into game using ssh with ** bandit1 ** as user
-=> Use ** ls** for listing the directory contents
-=> Once the file is identified. We will use ** "cat" ** + ** "./" ** + ** "-" ** for print the key on the screen 
-=> Log out with ** ctrl + D ** or ** exit **
+=> Use **ls** for listing the directory contents
 
+=> Use **cat ./-** to print the content on the screen 
 
-** Why did we use " cat ./- instead of cat - " ? **
-Because adding " ./ " before a ** filename ** tells the terminal to treat it as a path to a file, not as a special symbol.
-** A filename ** is simply the name of a file.
+=> Log out with **CTRL + D** or **exit**
+
+## Observations
+- Why did I use **cat ./-** instead of **cat -** ? 
+Because adding " ./ " before a **filename** tells the terminal to treat it as a *path to a file*, not as a special symbol.
+- A **filename** is simply the name of a file.
