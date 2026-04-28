@@ -5,16 +5,20 @@ owned by user bandit7
 owned by group bandit6
 33 bytes in size
 
-**Commands for this level**: ls , cd , cat , file , du , find , grep
+**Useful commands**: ls , cd , cat , file , du , find , grep
 
 ## How to solve this level ?
 => Log into the game using ssh with **bandit6** as username and the password found in the previous level;  
-=> We will follow the instruction as they have said. At this time, our command would be **find / -user bandit7 -group bandit6 -size 33c** 
-=>Once our file found, we will print the content on the display with **cat [the root where our key is located]**
+
+=> Follow the instruction as described. At this time, the final command is **find / -user bandit7 -group bandit6 -size 33c**;
+
+=> Once our file is found, print the content on screen with **cat /path/to/the/file**;
+
 => Log out with **CTRL + D** or **exit**.
 
 ## Observations 
-- **Find**: helps us to simply find a file in a directory or a server
-- **./**: is for the current directory and there we have used **/**, that was for the root of the entire **server**
-- We accompanied *find* not only with the server but also arguments and options for this case. We have; *-user*, *-group* and *-size*
-- When I ran **find /**, the terminal printed many "Permision denied" erros. It was noraml beacuse **bandit6** does not have permission to access folders belonging to other users or system. The **find** command continued searching until it found the correct file
+- **Find**: helps us to simply find a file in a directory or a server.
+- **./**: is for the current directory and here we used **/**, that was for **the root of the entire server**.
+- We used find with the **root path** */* and several flags: -user, -group, and -size.
+- When I ran the final command, the terminal printed many errors *"Permission denied"*. It was normal because **bandit6** does not have permission
+  to access folders belonging to other users or system. The **find** command continued searching until it found the correct file.
