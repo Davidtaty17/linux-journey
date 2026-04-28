@@ -1,30 +1,27 @@
-LEVEL 4->5 : Find the key for the next level 
+# LEVEL 4->5 : Find the key for the next level 
 
-Location:<inhere directory> / Stored in the only human-readable file
+**Location**: Stored in the only **human-readable file** in a directory named *inhere*
+**Useful commands**: ls, cd, cat, file, du, find
 
-Commands for this level: ls, cd, cat, file, du, find
+## How to solve this level?
+=> Log into the game using ssh with **bandit4** as username and the password found in the previous level;
 
+=> Use **ls** to list directory contents and find our directory;
 
-How to solve this level ?
+=> Once the directory is located, use **cd inhere** to change the current directory;
 
-=> Log into the game using ssh with < bandit4 > as username and the password found in the previous level.
+=> Then, type **ls** to list the directory's content;
 
-=> Use < ls > for listing directory contents and find the directory 
+=> You will see several files. This time, use the command **file ./*** to know the *type of all files in this directory*;
 
-=> Once the directory located, we will use < cd inhere > to changing the current directory 
+=> Then once the file is located, type **cat ./filename** to read the content on the screen;
 
-=> Then, we will type < ls > to see our file on the list 
-
-=> Once taped you will see several files. In this time we will use the command < file > + < ./* > for know the type of all files in this directory at once.
-
-=> Then once the file is located, we type < cat ./[file's name] > fo printing the content on the screen.
-
-=> Log out with < CTRL + D > or type < exit > on the terminal 
+=> Log out with **CTRL + D** or **exit** on the terminal.
 
 
-Observations
+## Observations
 
--  Human-readable file contains plain text that can be read directly by a human.
-In Linux, the file command identifies the type of each file. Human-readable files appear as ASCII text, while non-readable files appear as data.
+-  **Human-readable file** contains plain text that can be read directly by a human.
+In Linux, the file command identifies the type of each file. **Human-readable files** appear as *ASCII text*, while **non-readable files** appear as *data*.
 
-- < * > is a wildcard that matches all files in a directory. Using file < ./* > runs the file command on every file at once instead of typing each filename individually.
+- ***** is a **Wildcard** that matches *all files* in a directory. Using **file./*** runs the file command on every file at once instead of typing each filename individually.
