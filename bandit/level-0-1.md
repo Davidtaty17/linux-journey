@@ -1,18 +1,17 @@
-LEVEL 0->1 : Password is stored
+# LEVEL 0->1 : Find the key for the next level
+**Location**:Stored in a file named **readme** on *home directory*
 
+**Useful commands**: for this mission: ls, cd, cat, file, du, find.
 
-Location: file "readme"
-File's location: Home directory 
-Mission: **Use the password to log into bandit1 using ssh.**
+## How to solve this level?
+=> Log into the game as in the previous level: **ssh -p 2220 bandit0@bandit.labs.overthewire.org**
 
-command for this mission: ls, cd, cat, file, du, find.
+=> use the command **ls** to list the directory content
 
+=> use the command **cat** to print the file content on screen: "**cat readme**"
 
-How to solve this level ?
+=> Log out with **CTRL + D** or **exit**.
 
-=> log into the game as in the previous level: **ssh -p 2220 bandit0@bandit.labs.overthewire.org**
-=> use the command **ls** that is the list directory contents: **ls**
-=> use the command **cat** for printing the file once found: **cat readme**
-=> Create a file on the local machine for your next logs
-
-
+## Observations 
+- You should create a file to store your keys
+  
