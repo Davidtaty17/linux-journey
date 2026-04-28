@@ -5,9 +5,9 @@ port: 2220
 user: bandit0
 commands given: ssh 
 
-**Command for this level**: ssh
+**Useful commands**: ssh
 
-## How to solve this level ?
+## How to solve this level?
 
 
 => Log into the game using ssh command, " **ssh -p port_number user@IP**"  
